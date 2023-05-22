@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:quotes_app/core/app_colors.dart';
@@ -13,7 +12,7 @@ class Constants {
           actions: [
             TextButton(
                 onPressed: () => Navigator.pop(context),
-                child:  Text(AppString.ok)),
+                child: Text(AppString.ok)),
           ],
           title: Text(
             message,
@@ -34,7 +33,6 @@ class Constants {
       toastLength: Toast.LENGTH_LONG,
       backgroundColor: color ?? APPColor.primary,
       gravity: gravity ?? ToastGravity.BOTTOM,
-
     );
   }
 }
